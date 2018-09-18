@@ -1,0 +1,51 @@
+*.class
+
+#Package Files
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven ifnore
+target/
+
+#Eclipse
+.settings/
+.project
+.classpath
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file
+*.log
+*.cache
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+
+### Builder
+target/
+build/
+out/
+gen/
+.gradle/
+local.properties
+
+
+
+
+
+### Other
+.DS_Store
+*.log
+*.bak
